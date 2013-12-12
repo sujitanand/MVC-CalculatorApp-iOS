@@ -22,6 +22,8 @@
 		AF8D4CD818595A330087CA0B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8D4CBC18595A330087CA0B /* CoreData.framework */; };
 		AF8D4CE018595A330087CA0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF8D4CDE18595A330087CA0B /* InfoPlist.strings */; };
 		AF8D4CE218595A330087CA0B /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8D4CE118595A330087CA0B /* CalculatorTests.m */; };
+		AF8D4CED18595AB80087CA0B /* Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8D4CEC18595AB80087CA0B /* Expression.m */; };
+		AF8D4CF018595C8A0087CA0B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8D4CEF18595C8A0087CA0B /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		AF8D4CDD18595A330087CA0B /* CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		AF8D4CDF18595A330087CA0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF8D4CE118595A330087CA0B /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		AF8D4CEB18595AB80087CA0B /* Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expression.h; sourceTree = "<group>"; };
+		AF8D4CEC18595AB80087CA0B /* Expression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Expression.m; sourceTree = "<group>"; };
+		AF8D4CEE18595C8A0087CA0B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AF8D4CEF18595C8A0087CA0B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 			children = (
 				AF8D4CC718595A330087CA0B /* AppDelegate.h */,
 				AF8D4CC818595A330087CA0B /* AppDelegate.m */,
+				AF8D4CEE18595C8A0087CA0B /* MainViewController.h */,
+				AF8D4CEF18595C8A0087CA0B /* MainViewController.m */,
+				AF8D4CEB18595AB80087CA0B /* Expression.h */,
+				AF8D4CEC18595AB80087CA0B /* Expression.m */,
 				AF8D4CCD18595A330087CA0B /* Images.xcassets */,
 				AF8D4CCA18595A330087CA0B /* Calculator.xcdatamodeld */,
 				AF8D4CBF18595A330087CA0B /* Supporting Files */,
@@ -251,6 +261,8 @@
 				AF8D4CC918595A330087CA0B /* AppDelegate.m in Sources */,
 				AF8D4CC518595A330087CA0B /* main.m in Sources */,
 				AF8D4CCC18595A330087CA0B /* Calculator.xcdatamodeld in Sources */,
+				AF8D4CF018595C8A0087CA0B /* MainViewController.m in Sources */,
+				AF8D4CED18595AB80087CA0B /* Expression.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
